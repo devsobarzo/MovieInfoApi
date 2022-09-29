@@ -18,5 +18,30 @@
         android:id="@+id/movieDetailFragment"
         android:name="cl.rober.movieinfoapi.ui.moviedetails.MovieDetailFragment"
         android:label="fragment_movie_detail"
-        tools:layout="@layout/fragment_movie_detail" />
+        tools:layout="@layout/fragment_movie_detail" >
+        <argument
+            android:name="image"
+            app:argType="string" />
+        <argument
+            android:name="backroundImage"
+            app:argType="string" />
+        <argument
+            android:name="rating"
+            app:argType="string" />
+        <argument
+            android:name="voteCount"
+            app:argType="string" />
+        <argument
+            android:name="overView"
+            app:argType="string" />
+        <argument
+            android:name="title"
+            app:argType="string" />
+        <argument
+            android:name="releaseDate"
+            app:argType="string" />
+        <argument
+            android:name="stars"
+            app:argType="string" />
+    </fragment>
 </navigation>
