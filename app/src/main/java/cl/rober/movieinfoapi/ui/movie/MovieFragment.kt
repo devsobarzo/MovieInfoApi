@@ -1,10 +1,9 @@
-package cl.rober.movieinfoapi
+package cl.rober.movieinfoapi.ui.movie
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
+import cl.rober.movieinfoapi.R
 import cl.rober.movieinfoapi.databinding.FragmentMovieBinding
 
 class MovieFragment : Fragment(R.layout.fragment_movie) {

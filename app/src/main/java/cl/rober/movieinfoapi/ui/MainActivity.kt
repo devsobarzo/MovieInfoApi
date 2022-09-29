@@ -1,7 +1,8 @@
-package cl.rober.movieinfoapi
+package cl.rober.movieinfoapi.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import cl.rober.movieinfoapi.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
